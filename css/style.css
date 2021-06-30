@@ -1,0 +1,959 @@
+@font-face {
+  font-family: SyntaxLTStd-Roman;
+  src: url("../font/SyntaxLTStd-Roman.otf") format("opentype");
+}
+
+body {
+  font-family: SyntaxLTStd-Roman;
+  font-weight: normal;
+  font-style: normal;
+  width: 100%;
+}
+
+.img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a,
+.button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  text-decoration: none;
+  color: #1F1F1F;
+}
+
+a,
+button {
+  color: #1F1F1F;
+  outline: medium none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1F1F1F;
+  font-family: SyntaxLTStd-Roman;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  font-family: SyntaxLTStd-Roman;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #4D4D4D;
+  margin-bottom: 13px;
+  font-family: SyntaxLTStd-Roman;
+}
+
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+*::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+*::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+
+*:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*::-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+.row{
+  margin: 0px !important;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.mb-65 {
+  margin-bottom: 67px;
+}
+
+.black-bg {
+  background: #020c26 !important;
+}
+
+.white-bg {
+  background: #ffffff;
+}
+
+.gray-bg {
+  background: #f5f5f5;
+}
+header{
+  display: flex;
+  top: 0px;
+  margin-left: 145px;
+}
+header .logo{
+  background: #53857F;
+  width: 150px;
+  height: 137px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo img{
+  height: 87px;
+  width: 107px;
+}
+header .navigations{
+  width: 100%;
+}
+header .navigations .top_nav{
+  width: 100%;
+}
+header .navigations .top_nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 51px;
+  background: white;
+}
+header .navigations .top_nav ul li{
+  margin: 0px 20px;
+}
+header .navigations .top_nav ul li a{
+  text-decoration: none;
+}
+
+header .navigations .bottom_nav{
+  width: 100%;
+}
+header .navigations .bottom_nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 66px;
+  background: #AACAC7;
+}
+header .navigations .bottom_nav ul li{
+  margin: 0px 30px;
+}
+header .navigations .bottom_nav ul li a{
+  text-decoration: none;
+  font-size: 18px;
+}
+.hero{
+  height: 100vh;
+  background-image: url('../img/Clip.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.hero_text{
+  position: absolute;
+  width: 100%;
+  top: 45%;
+}
+.hero_text h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.copyright_box{
+  width: 541px;
+  position: absolute;
+  bottom: 0px;
+  right: 125px;
+}
+.copyright_box .copyright_box_top{
+  background:#397266;
+  height: 28px;
+  padding: 0px 10px;
+}
+.copyright_box .copyright_box_bottom{
+  background: #003D2A;
+  padding: 15px 0px;
+}
+.copyright_box .copyright_box_bottom p{
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+.feature_area{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.feature_area .title p{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feature_area .card{
+  border: none;
+  border-radius: 0px;
+}
+.feature_area .card .card-img-overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.feature_area .card .card-img-overlay h5{
+  color: white;
+  font-size: 17px;
+}
+.feature_area .card .card-img-overlay h2{
+  color: white;
+  font-size: 35px;
+}
+.feature_area .card .card-img-overlay .btn{
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 7px 20px;
+  margin-top: 30px;
+}
+.what_on_easter{
+  background: #EAEDF5;
+  padding: 50px 0px;
+}
+.what_on_easter .img_wrap{
+  position: relative;
+}
+.what_on_easter .img_wrap img{
+  width: 100%;
+}
+.what_on_easter .img_wrap .view_activity{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: #FCCBAC;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: 7px 20px;
+}
+.what_on_easter .title{
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.what_on_easter ul li a{
+  font-size: 30px;
+  text-decoration: none;
+}
+.what_on_easter ul li .active{
+  border-bottom: 3px solid #50CFC1;
+  position: relative;
+}
+.view_easter_activity{
+  background: #FCCBAC;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: 7px 20px;
+  margin-top: 40px;
+}
+.what_on_easter .wrap {
+  margin-top: 30px;
+  margin-left: 160px;
+  position: relative;
+}
+.what_on_easter ul li .active::before{
+  content: "";
+  width: 35px;
+  height: 25px;
+  background: url(../img/location.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -40px;
+  top: 5px;
+}
+.what_on_easter .img_wrap::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint1.svg);
+  background-repeat: no-repeat;
+  bottom: -60px;
+  left: 100px;
+}
+.what_on_easter .wrap::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint2.svg);
+  background-repeat: no-repeat;
+  left: -100px;
+  bottom: 45px;
+}
+.places_to_go{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.places_to_go .title{
+  text-align: center;
+}
+.places_to_go .title h5{
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+#place_to_go h5{
+  font-size: 25px;
+  margin-top: 15px;
+  border-bottom: 3px solid transparent;
+}
+#place_to_go .owl-nav.disabled{
+  display: block;
+}
+#place_to_go .owl-prev{
+  position: absolute;
+  left: -50px;
+  top: 40%;
+  background: #FCCBAC;
+  border-radius: 50%;
+  padding: 7px;
+}
+#place_to_go .owl-next{
+  position: absolute;
+  right: -50px;
+  top: 40%;
+  background: #FCCBAC;
+  border-radius: 50%;
+  padding: 7px;
+}
+#place_to_go .item:hover h5{
+  border-bottom: 3px solid #50CFC1;
+  display: inline-block;
+}
+.places_to_go .see_all_places{
+  background: #FCCBAC;
+  border-radius: 0px;
+  margin: auto;
+  display: block;
+  padding: 7px 50px;
+  margin-top: 70px;
+}
+.things_to_do{
+  background: #EAEDF5;
+  padding: 50px 0px;
+}
+.things_to_do .wrap {
+  margin-top: 30px;
+  margin-left: 160px;
+  position: relative;
+}
+.things_to_do .title {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.things_to_do ul li a {
+  font-size: 30px;
+  text-decoration: none;
+}
+.view_easter_activity {
+  background: #FCCBAC;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: 7px 20px;
+  margin-top: 40px;
+}
+.things_to_do ul li .active{
+  position: relative;
+  border-bottom: 3px solid #50CFC1;
+}
+.things_to_do ul li .active::before {
+  content: "";
+  width: 35px;
+  height: 25px;
+  background: url(../img/location.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -40px;
+  top: 5px;
+}
+.things_to_do .wrap::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint2.svg);
+  background-repeat: no-repeat;
+  left: -120px;
+  top: 80px;
+}
+.things_to_do .img_wrap {
+  position: relative;
+}
+.things_to_do .img_wrap img {
+  width: 100%;
+}
+.things_to_do .img_wrap .view_activity {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: #FCCBAC;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: 7px 20px;
+}
+.things_to_do .img_wrap::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint1.svg);
+  background-repeat: no-repeat;
+  top: -25px;
+  right: 0;
+}
+.whats_onthe_dale{
+  margin: 70px 0px;
+}
+.whats_onthe_dale .title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.whats_onthe_dale .title h5{
+  font-size: 35px;
+}
+.whats_onthe_dale .title p{
+  font-size: 18px;
+}
+.whats_onthe_dale .card{
+  border: none;
+  border-radius: 0px;
+}
+.whats_onthe_dale .card .head{
+  display: flex;
+  align-items: center;
+  background: #5F867B;
+  padding: 10px 25px;
+  height: 104px;
+}
+.whats_onthe_dale .card .head img{
+  width: 50px;
+  margin-right: 20px;
+}
+.whats_onthe_dale .card .head p{
+  margin: 0px;
+  color: white;
+  font-size: 22px;
+}
+.whats_onthe_dale .card .card-body{
+  background:#E3EDEC;
+  padding: 25px;
+}
+.whats_onthe_dale .card .card-body p{
+  margin: 0px;
+  font-size: 18px;
+  color: #1A1A1A;
+}
+.whats_onthe_dale .card .card-body .end{
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.whats_onthe_dale .card .card-body .card-link{
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 3px solid #50CFC1;
+  position: relative;
+  color: #1A1A1A;
+}
+.whats_onthe_dale .card .card-body .card-link::after{
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  background: url('../img/Location.png');
+}
+.see_all_events {
+    background: #FCCBAC;
+    border-radius: 0px;
+    margin: auto;
+    display: block;
+    padding: 7px 50px;
+    margin-top: 70px;
+}
+.plan_your_visit .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan_your_visit .title h5 {
+  font-size: 35px;
+}
+.plan_your_visit .title p {
+  font-size: 18px;
+}
+.plan_your_visit .card{
+  height: 247px;
+  border: none;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.plan_your_visit .card img{
+  width: 71px;
+  height: 90px;
+}
+
+.plan_your_visit .card h5{
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.plan_your_visit_btn{
+    background: #FCCBAC;
+    border-radius: 0px;
+    margin: auto;
+    display: block;
+    padding: 7px 50px;
+    margin-top: 50px;
+}
+.plan_your_visit{
+  margin-bottom: 70px;
+}
+footer{
+  background: #5F877B;
+  padding-top: 70px;
+}
+footer p{
+  color: white;
+}
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+footer .terms{
+  margin-top: 20px;
+}
+footer .terms a{
+  color: white;
+  text-decoration: none;
+}
+footer .footer_contact{
+  margin-bottom: 20px;
+}
+footer .footer_media{
+  margin-bottom: 20px;
+}
+footer .footer_privacy {
+  margin-top: 45px;
+}
+footer .footer_img{
+  margin-left:auto;
+  display: block;
+}
+footer .footer_img:nth-child(2){
+  margin-top: 30px;
+}
+footer .viewranger{
+  margin-top: 30px;
+}
+.mobile_nav{
+  display: none;
+}
+header .menu_btn{
+  display: none;
+}
+@media only screen and (max-width: 1024px){
+  header {
+    display: flex;
+    top: 0px;
+    margin-left: 60px;
+}
+.hero {
+  height: 50rem;
+  background-image: url(../img/Clip.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.what_on_easter ul li a {
+  font-size: 24px;
+  text-decoration: none;
+}
+#place_to_go .owl-next {
+  position: absolute;
+  right: -40px;
+  top: 40%;
+  background: #FCCBAC;
+  border-radius: 50%;
+  padding: 7px;
+}
+#place_to_go .owl-prev {
+  position: absolute;
+  left: -40px;
+  top: 40%;
+  background: #FCCBAC;
+  border-radius: 50%;
+  padding: 7px;
+}
+.things_to_do ul li a {
+  font-size: 24px;
+  text-decoration: none;
+}
+.whats_onthe_dale .card .head p {
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+}
+.plan_your_visit .card h5 {
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+.copyright_box {
+  width: 541px;
+  position: absolute;
+  bottom: 0px;
+  right: 55px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  header .navigations {
+    width: 100%;
+    display: none;
+}
+header .logo img {
+  height: 75px;
+  width: 75px;
+}
+header .logo {
+  background: #53857F;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile_nav{
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1111;
+  padding-top: 100px;
+  overflow-y: scroll;
+}
+.mobile_nav ul li{
+  text-align: center;
+  margin: 20px 0px;
+}
+.mobile_nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.mobile_nav .close_btn {
+  width: 30px;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+}
+.feature_area .card .card-img-overlay h2 {
+  color: white;
+  font-size: 30px;
+}
+header .menu_btn {
+  width: 65px;
+  position: absolute;
+  right: 50px;
+  top: 15px;
+  display: block;
+}
+.what_on_easter .wrap {
+  margin-top: 30px;
+  margin-left: 40px;
+  position: relative;
+}
+.things_to_do .wrap {
+  margin-top: 30px;
+  margin-left: 40px;
+  position: relative;
+}
+.whats_onthe_dale .card .head img {
+  width: 30px;
+  margin-right: 20px;
+}
+.whats_onthe_dale .card .head p {
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+}
+.whats_onthe_dale .card .head {
+  display: flex;
+  align-items: center;
+  background: #5F867B;
+  padding: 10px 10px;
+  height: 125px;
+}
+.whats_onthe_dale .card .card-body p {
+  margin: 0px;
+  font-size: 16px;
+  color: #1A1A1A;
+}
+footer .footer_img {
+  display: block;
+  margin-right: auto;
+  margin-left: 0px;
+}
+footer {
+  background: #5F877B;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.things_to_do .wrap::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint2.svg);
+  background-repeat: no-repeat;
+  left: -80px;
+  top: 80px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+  #place_to_go .owl-next {
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    background: #FCCBAC;
+    border-radius: 50%;
+    padding: 7px;
+}
+#place_to_go .owl-prev {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  background: #FCCBAC;
+  border-radius: 50%;
+  padding: 7px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+}
+header {
+  display: flex;
+  top: 0px;
+  margin-left: 0px;
+}
+header .menu_btn {
+  width: 50px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  display: block;
+}
+header .logo {
+  background: #53857F;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .logo img {
+  height: 55px;
+  width: 55px;
+}
+
+.hero_text {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+.hero {
+  height: 100vh;
+  background-image: url(../img/Clip.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.copyright_box {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+}
+.copyright_box .copyright_box_bottom p {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-size: 15px;
+}
+.mobile_nav .close_btn {
+  width: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.mobile_nav {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1111;
+  padding-top: 60px;
+}
+.feature_area .card {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 40px;
+}
+.what_on_easter .wrap {
+  margin-top: 100px;
+  margin-left: 40px;
+  position: relative;
+}
+.what_on_easter .wrap::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint2.svg);
+  background-repeat: no-repeat;
+  left: -60px;
+  bottom: 45px;
+}
+.things_to_do .wrap {
+  margin-top: 100px;
+  margin-left: 40px;
+  position: relative;
+}
+.things_to_do .wrap::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../img/Footprint2.svg);
+  background-repeat: no-repeat;
+  left: -60px;
+  top: 80px;
+}
+.whats_onthe_dale .card .head p {
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+}
+.whats_onthe_dale .card .head img {
+  width: 50px;
+  margin-right: 20px;
+}
+.whats_onthe_dale .card {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 50px;
+}
+.plan_your_visit .title p br{
+  display: none;
+}
+.feature_area .title p br{
+  display: none;
+}
+footer .footer_img {
+  display: block;
+  margin-right: auto;
+  margin-left: 0px;
+  max-width: 100%;
+}
+.what_on_easter ul li{
+  margin-bottom: 20px;
+}
+.things_to_do ul li{
+  margin-bottom: 20px;
+}
+.hero_text h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.row{
+  margin: 0px !important;
+}
+}
